@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte para Surdos - Conscientização sobre AIDS</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Suporte para Surdos - AIDS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">O que é a AIDS?</a></li>
+                <li><a href="treatment.html">Tratamento</a></li>
+                <li><a href="prevention.html">Prevenção</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <section id="libras-video">
+            <h2>Vídeos Educativos com Libras</h2>
+            <p>Assista ao vídeo abaixo com tradução em Libras sobre o que é a AIDS.</p>
+            <video controls>
+                <source src="assets/videos/aids-libras.mp4" type="video/mp4">
+                Seu navegador não suporta o formato de vídeo.
+            </video>
+            <p>Este vídeo tem tradução em Libras e legendas em português.</p>
+        </section>
+
+        <!-- Transcrição do Vídeo -->
+        <section id="video-transcription">
+            <h3>Transcrição do Vídeo</h3>
+            <p>Este vídeo explica o que é a AIDS, como o HIV é transmitido e como preveni-la. Ele fornece informações detalhadas de forma acessível.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Suporte para Surdos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
